@@ -1,0 +1,58 @@
+---
+title: "WHPC Newsletter - 1/21/2022"
+output: 
+  blastula::blastula_email:
+    # toc: true
+    # toc_depth: 2
+    # toc does not currently work. See https://github.com/rstudio/blastula/issues/221.
+    # Developers not prioritizing this issue as discussed at https://github.com/subugoe/metacheck/issues/325
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=TRUE}
+# We would like to add an image for a header here, but this is currently
+# prevented my issue https://github.com/rstudio/blastula/issues/279
+#blastula::add_image(file = "../header.png", width='100%')
+blastula::block_title("Women in HPC at Purdue Newsletter")
+blastula::block_text("Bringing you updates on events and opportunities in the HPC space without clogging up your inbox!", align = "center")
+```
+
+## [Training] Introduction to Data and Data Processing
+
+### [This Friday, April 1, 2022 2:00pm - 3:30pm EDT](https://www.rcac.purdue.edu/news/4208)
+
+We are putting on a training session for Women in HPC! This workshop will be a beginner-level discussion about data, focusing on how data fits into machine learning and data science workflows. Topics will include:
+
+- types of data
+- data collection
+- basic data processing with Pandas,
+- considerations for exploratory data analyses.
+
+This workshop is sponsored by us, but all are welcome to join. Navigate to [this page](https://www.rcac.purdue.edu/news/4208), sign in, and click "I'm interested in attending" to register.
+
+## [Event] WHPC Speaker Series
+
+### [Friday, April 15 at 2:00pm EDT](https://purdue-edu.zoom.us/meeting/register/tJUkdOmorDkiH9Fn6D_8qul1VO4AOoqlHDF5)
+
+We are excited to announce the revival of our speaker events, where we invite guests to share their work, research, and experiences. This month's talk will feature two guests: 
+
+Ying Zhang is currently both a doctoral candidate and the AI Support Team Lead in research computing at the University of Florida, where she provides AI consultations to research groups. In 2020, she founded the UF Chapter of Women in HPC and organized campus wide activities to advance the participation of women in HPC and AI. She will talk with us about her experience in this space.
+
+Zoey Mertes is an undergraduate student studying Network Engineering Technology at Purdue. She has been a student employee in research computing for almost three years whereshe has been working on a filesystem indexer and cloud computing. She will talk about her experience at Purdue.
+
+```{r, echo=FALSE, include=TRUE}
+# also prevented my issue https://github.com/rstudio/blastula/issues/279
+
+# blastula::block_social_links(
+#  blastula::social_link(
+#    service = "twitter",
+#    link = "https://twitter.com/purduewhpc",
+#    variant = "color"
+#   )
+# )
+```
+
+
